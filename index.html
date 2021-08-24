@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>1813255: BHARTI :Q3  </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1 shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+    </head>
+     
+<script> 
+    function display_c()
+    {
+        var refresh=1000; 
+        mytime=setTimeout('display_ct()',refresh)
+    }
+
+    function display_ct()
+    {
+        var dt = new Date()
+        document.getElementById("dt").innerHTML = dt.toLocaleTimeString();
+        display_c();
+    }
+</script>
+    <STYLE>
+    body {
+    margin:-16px auto;
+    width: 100% auto;
+    
+    
+}
+ .nav {
+  background-color: #333;
+  overflow: hidden;
+}  
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.home{
+        
+    text-align: center;
+    font-family:monospace;
+    display:flex;
+    height: 100vh;
+    width: 100%;
+ 
+}
+
+.inner{
+    background-color: white;
+    width: 500px;
+    border: 5px solid grey ;
+    border-style: outset;
+    padding: 50px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+   
+}
+.home .inner img{
+   border-radius: 10%;
+    width:400px;
+    height: auto;
+    
+}
+
+#container{
+display: flex;
+margin: 50px 50px;
+}
+.events{
+background-color: #ccc2c2;
+width: 100%;
+height: 300px;
+margin:3px 6px;
+}
+.events img{
+height: 200px;
+width: 100%;
+}
+.events h3,p{
+text-align: center;
+}
+
+  .skills h1, .contact h1{
+    font-size:42px;
+}
+  .skills .inner div{
+    width:30%;
+    margin-left:5px;
+    margin-right:5px;
+    float: left;
+    text-align: center;
+}
+  .skills .inner div ul li, .contact .inner p{
+    font-size:26px;
+}
+
+ .skills, .contact{
+    display:table;
+    height:100vh;
+    width:100%;
+}
+ .contact .inner{
+    padding:50px;
+}
+.skills{
+     background-image:url('https://www.litmus.com/wp-content/uploads/2020/04/best-way-to-code-background-colors-for-html-email.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skills .inner{
+    background-color: rgba(0,0,0,0.7);
+    padding: 50px;
+    color:#fff;
+}
+.skills .inner div ul li {
+    list-style-type: none;
+}
+.skills .inner div ul li{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+
+
+@media (min-width:320px) and (max-width:767px){
+    .home .inner img{
+        padding-top: 100px;
+    }
+    #about{
+        background:burlywood!important;
+    }
+    .about .inner{
+        width: 95%
+        padding: 25px;
+    }
+    .about .inner p{
+        font-size: 18px;
+        text-align: justify;
+    }
+    .education .inner div, .hobbies .inner div, .skills .inner div {
+        width:100%; 
+    }
+    .hobbies .inner div{
+        border-bottom: 2px solid #d3d3d3;
+    }
+}
+@media (min-width:768px) and (max-width:1023px){
+    
+}
+@media (min-width:1024px)and (max-width:1439px){
+    
+}
+
+{
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+footer {
+ 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #8d99ae;
+  color: white;
+  text-align: center;
+}
+
+</STYLE>
+
+<body>
+    <div class="header" id="myHeader">
+    
+    </div>
+    <div class="nav">
+            <ul>
+                    <a href="#home">Home</a>
+                    <a href="#container">Workshops</a>
+                    <a href="#skills">Courses</a>
+                    <a href="#contact">Contact Us</a>
+            </ul>
+        <h2 style="color: aliceblue; text-align: right" ><body onload=display_ct();>
+        <span id='dt' ></span></h2>
+    </div>
+        <section style="background-color:#EB613D">
+        <section id="home" class="home">
+            <div class="inner">
+                <img src="https://static.vecteezy.com/system/resources/previews/000/252/862/non_2x/modern-gradient-flat-line-concept-web-banner-of-web-development-with-decorated-small-people-character-landing-page-template-vector.jpg" height=200 px>
+                <h1>WEB DEVELOPEMENT </h1>
+                <h3>Go from no-code to an in-demand junior web developer, at a fraction of the cost of a bootcamp. Start with the front-end by learning HTML, CSS, and JavaScript. Then, master the back-end and APIs to round out your full-stack skills.</h3>
+            </div>
+            </section>
+        </section>
+        <section id="container" class="container">
+            <h1>Workshops</h1> 
+           <div id="container">
+               
+               <div class="events">
+                   
+                <img src="https://miro.medium.com/max/1200/1*pE2fOVDikEUwiQJlh4ggzg.jpeg">
+
+            <h3 class="ternary">Web Development</h3>
+            <p class="para">
+            meeting on discussion of upcoming events
+            </p>
+            </div>
+            <div class="events">
+            <img src="https://prod-discovery.edx-cdn.org/media/course/image/e4939213-96fd-46d0-b76b-68b9e2a175c9-3093b190ea7b.small.jpeg">
+            <h3 class="ternary">Networking Workshop</h3>
+            <p class="para">
+            conference with the head of departments
+            </p>
+            </div>
+            <div class="events">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHyv0Is8qEiImB8LcdfvOPxVZZ8v1lxqJ1QwxvFJ83iZlAKqoZgZLkoctQ2SZpC3SiTMk&usqp=CAU">
+            <h3 class="ternary">Android Development</h3>
+            <p class="para">
+            seminar with all teachers of IT department
+            </p>
+            </div>
+            <div class="events">
+                 <img src="https://www.analyticssteps.com/backend/media/thumbnail/4530462/5951113_1605265443_AI%20(7).jpg">
+            <h3 class="ternary">Android Development</h3>
+            <h3 class="ternary">AI & ML</h3>
+            <p class="para">
+            Meeting to discuss about upcoming concert
+                </p></div></div></section>
+        
+        <section id="skills" class="skills">
+            <h1>Courses  </h1>
+            <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/development-skill-549148.png">
+           <div>
+               <ul>
+                   <li>HTML5</li>
+                   <li>CSS3</li>
+                   <li>JS</li>
+                       
+               </ul>
+           </div>
+           <div>
+               <ul>
+                   <li>Wordpress</li>
+                   <li>Bootstrap</li>
+                   <li>Foundation</li>
+                       
+               </ul>
+           </div>
+           <div>
+               <ul>
+                   <li>Photoshop</li>
+                   <li>Ilustrator</li>
+                   <li>Unity 3d</li>
+                       
+               </ul>
+           </div>    
+        </section>
+       
+<section id="contact" class="contact-section">
+        <div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="https://thumbs.dreamstime.com/t/contact-us-circles-blue-squares-banner-concept-image-background-having-three-symbols-44731295.jpg">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="India">India</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+</p>
+</div>
+</div>            
+        
+</section>
+<footer>
+  <p>
+    ** Made by Bharti Arya.
+  </p>
+  
+</footer>
+</body>
+</html>
